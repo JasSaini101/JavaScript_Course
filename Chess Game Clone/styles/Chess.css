@@ -17,7 +17,6 @@ body{
 .row4,
 .row2{
     display: flex;
-    background-color: lightcoral;
     height: 100px;
     width: 800px;
 }
@@ -27,28 +26,31 @@ body{
 .row3,
 .row1{
     display: flex;
-    background-color: lightgreen;
     height: 100px;
     width: 800px;
 }
 
 .row-number, .column-letter{
     font-family: Arial;
-    padding-left: 4px;
     color: red;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
+    position: absolute;
+}
+
+.white-pawn{
+    position: absolute;
+    height: 80px;
+    top: 12px;
+    left: 12px;
+}
+
+.row-number{
+    top: 2px;
+    left: 4px;
 }
 
 .column-letter{
-    margin-top: 70px;
-    margin-left: 70px;
-}
-
-.square1 .column-letter{
-    margin-top: 48px;
-}
-
-img{
-    height: 50px;
+    bottom: 2px;
+    right: 4px;
 }

@@ -31,9 +31,10 @@
 .row7 .square6,
 .row7 .square8
 {
+    position: relative;
     width: 100px;
-    background-color: white;
-    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 100;
 }
 
 .row2 .square2, 
@@ -69,7 +70,8 @@
 .row7 .square5,
 .row7 .square7
 {
+    position: relative;
     width: 100px;
-    background-color: black;
-    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
 }
