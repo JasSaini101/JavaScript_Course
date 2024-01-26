@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coin Flip Simulation</title>
+        <link rel="stylesheet" href="./Coin-Toss.css">
+    </head>
+    <body>
+        <header>
+            Coin Flip Simulation
+        </header>
+        <section class="buttons-container">
+            <button class="heads-button" onclick="playGame('h')">Heads</button>
+            <button class="tails-button" onclick="playGame('t')">Tails </button>
+        </section>
+        <section class="coin-visuals">
+            <img class="coin-image" src="./images/coin-toss.jfif">
+        </section>
+        <section class="game-information">
+            <p class="game-result">
+                Guess Heads or Tails
+            </p>
+            <div class="win-loss-stats">
+                <p class="wins">Wins: 0</p>
+                <p class="losses">Losses: 0</p>
+            </div>
+            <p class="personal-message"></p>
+            <button class="reset-button" onclick="resetGame()">Reset</button>
+        </secion>
+        <script src="Coin-Toss.js"></script>
+    </body>
+</html>
