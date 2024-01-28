@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+}
+
+.pawn{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 12px;
+    left: 12px;
+}
+
+.black-queen{
+    width: 80px;
+    height: 80px;
+}
