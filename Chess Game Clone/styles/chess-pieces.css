@@ -4,11 +4,52 @@ body{
 
 .pawn{
     position: absolute;
-    height: 80px;
-    width: 80px;
-    top: 12px;
-    left: 12px;
+    height: 70px;
+    width: 70px;
+    top: 14px;
+    left: 14px;
 }
+
+.queen{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 14px;
+    left: 14px;
+}
+
+.king{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 14px;
+    left: 14px;
+}
+
+.knight{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 14px;
+    left: 14px;
+}
+
+.rook{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 14px;
+    left: 14px;
+}  
+
+.bishop{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 14px;
+    left: 14px;
+}
+
 
 .black-queen{
     width: 80px;
